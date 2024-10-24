@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Protest+Strike&display=swap');
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: lightblue;
+}
+
+header {
+    background: #ffffff;
+    padding: 10px 0;
+    box-shadow: 3px 3px 3px lightslategray;
+    padding-left: 30px;
+}
+header a {
+    color: black;
+    text-decoration: none;
+    font-family: "Protest Strike", sans-serif;
+}
+
+main {
+    padding: 20px;
+    
+}
+
+.games {
+    margin-bottom: 20px;
+}
+
+.game {
+    box-shadow: 3px 3px 3px 3px lightslategray;
+    background: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 15px;
+    margin-bottom: 10px;
+}
+
+button {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #218838;
+}
+
+footer {
+    padding: 10px 0;
+    background: #000000;
+    color: #ffffff;
+    font-size: 10px;
+}

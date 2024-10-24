@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Protest+Strike&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: lightblue;
+}
+
+.primary-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: rgb(255, 255, 255);
+    border: solid black 2px;
+    height: 60px;
+}
+
+.second-header {
+    width: 100%;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    padding-left: 60px;
+    height: 50px;
+    gap: 20px;
+    font-family: "Oswald", serif;
+    box-shadow: 2px 2px 2px lightslategray;
+}
+
+.underline-infinite {
+    text-decoration: underline white;
+}
+
+.second-header p {
+    color: rgb(213, 211, 211);
+}
+
+.second-header p:hover {
+    text-decoration: underline white;
+}
+
+.underline-p {
+    text-decoration: underline white;
+
+}
+
+header h1 {
+    font-family: "Protest Strike", sans-serif;
+    font-size: 28px;
+    padding-left: 20px;
+}
+
+header a {
+    font-family: "Bebas Neue", sans-serif;
+    border: solid black 2px;
+    padding: 8px;
+    border-radius: 14px;
+    text-decoration: none;
+    color: rgb(4, 4, 4);
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+header a:hover {
+    transform: scale(1.15);
+    background-color: black;
+    color: white;
+}
+
+.nav-mid {
+    width: 800px;
+    display: flex;
+    justify-content: space-between;
+    padding-right: 200px;
+}
+
+.nav-right {
+    width: 115px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.nav-right a {
+    background-color: lightblue;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 20px;
+    color: black;
+}
+
+.nav-right a:hover {
+    background-color: black;
+    color: white;
+}
+
+.game {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    height: 120px;
+    padding-left: 30px;
+    padding-right: 30px;
+    box-shadow: 1px 1px 1px 1px lightslategray;
+    border: solid lightslategray 2px;
+    font-family: "Roboto Condensed", sans-serif;
+
+}
+.games {
+    padding: 30px;
+}
